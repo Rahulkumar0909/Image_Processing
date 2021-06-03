@@ -16,9 +16,9 @@ eye_r=cv2.circle(cn, (325,135), 3, [255,255,255],10)
 eye_l=cv2.circle(cn, (375,135), 3, [255,255,255],10)
 nose=cv2.circle(cn, (350,160), 2, [255,255,255],10)
 
-cv2.imshow("Teady",cn)
+cv2.imshow("Teddy",cn)
 cv2.waitKey()
 cv2.destroyAllWindows()
 
 #Save Digital Teady
-cv2.imwrite("Digital_teady.jpg",cn)
+cv2.imwrite("Digital_teddy.jpg",cn)
